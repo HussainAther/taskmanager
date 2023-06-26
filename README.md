@@ -53,7 +53,7 @@ npm install
 python app.py
 ```
 
-- The Flask development server will start running at `http://localhost:5000`.
+- The Flask development server will start running at `http://localhost:5000`or the given URL.
 
 2. Start the Frontend Development Server:
 
@@ -63,11 +63,30 @@ python app.py
 npm start
 ```
 
-- The React development server will start running at `http://localhost:3000`.
+- The React development server will start running at the given host.
 
 3. Access the Application:
 
-- Open your web browser and visit `http://localhost:3000` to access the Task Management Application.
+- Open your web browser and visit `http://localhost:3000` or the given URL to access the Task Management Application.
+
+
+## Using a virtual environment 
+
+Note: It's recommended to use a virtual environment to isolate your project's dependencies. This allows you to maintain separate environments for different projects without conflicts. You can create a virtual environment using virtualenv or venv:
+
+Using virtualenv:
+
+```
+virtualenv venv
+```
+
+Using venv (built-in in Python 3):
+
+```
+python -m venv venv
+```
+
+After creating the virtual environment, activate it before installing packages or running your application.
 
 ## Contributing
 
