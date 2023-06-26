@@ -15,7 +15,7 @@ This is a full-stack task management application developed using Flask for the b
 1. Clone the repository:
 
 ```
-git clone https://github.com/your-username/task-management-app.git
+git clone https://github.com/HussainAther/taskmanager
 ```
 
 2. Backend Setup:
